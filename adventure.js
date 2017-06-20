@@ -26,7 +26,7 @@ setTimeout(function() {
         else if(choice1 === "WAIT") {
                 alert("You decide to keep your eyes closed and listen to what surrounds you. You hear snarling and growling noises, as well as heavy footsteps very close. You decide it is better to play dead for a bit until whatever it is leaves.")
         } 
-        else if(choice1 != "OPEN" && choice1 != "WAIT") {
+        else if(choice1 != "OPEN" || choice1 != "WAIT") {
                 alert("You sit still and take a moment to choose... refresh the page and make a choice!");
         }
 
